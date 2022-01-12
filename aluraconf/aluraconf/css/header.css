@@ -28,10 +28,6 @@
     background-color: #48a3a6;
 }
 
-/* .container{ */
-    /* padding: 3em; */
-/* } */
-
 .home{
     display: flex;
     flex-direction: column;

@@ -1,0 +1,55 @@
+.container-form{
+    margin-top: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-form{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(233, 132, 73);
+}
+
+.form{
+    padding: 1.6em;
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.input{
+    margin: 0.6em;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pai-botao{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.botao{
+    padding: 1.2em 5em 1.2em 5em;
+    color: white;
+    background-color: #48a3a6;
+    border-radius: 5px;
+    border-color: #48a3a6;
+}
+
+@media(max-width:400px){
+    .botao{
+        padding: 1.4em;
+        font-weight: bold;
+    }
+    .input{
+        width: 80%;
+    }
+}
