@@ -1,0 +1,33 @@
+.div-main{
+    padding: 1em;
+}
+
+.title-main{
+    text-align: center;
+    font-size: 2.6em;
+    margin-bottom: 0.4em;
+}
+
+.subtitle-main{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0.1em;
+}
+
+.text-main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.conteudo-main{
+  font-size: 24px;
+  text-align: center;
+  margin: 5px 30px 5px 30px;
+}
+
+.conteudo2-main{
+   font-size: 24px;
+   text-align: center;
+   margin: 5px 30px 5px 30px;
+}

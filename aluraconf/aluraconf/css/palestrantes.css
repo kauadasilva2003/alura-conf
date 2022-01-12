@@ -1,0 +1,67 @@
+.parte-Palestrantes{
+    background-color: rgb(233, 132, 73);
+}
+
+.title-palestrantes{
+    text-align: center;
+    font-size: 40px;
+    margin: 0.4em;
+    color: white;
+}
+
+.subtitle-palestrantes{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0.3em;
+    color: white;
+}
+
+.boxes-palestrantes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px; 
+}
+
+.box-palestrante{
+    margin: 15px;
+    background-color: white;
+    padding: 1.2em;
+    border-radius: 8px;
+}
+
+.img{
+    border-radius: 120px;
+    margin-bottom: 10px;
+}
+
+.nome{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.descricao-img{
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.descricao2{
+    text-align: center;
+    font-size: 17px;
+}
+
+@media(max-width: 400px){
+    .parte-Palestrantes{
+        width: 100%;
+       
+    }
+    .boxes-palestrantes{
+       margin-left: 6px; 
+       margin-right: 40px;
+    }
+    .box-palestrante{
+        margin: 15px 2px 15px 2px;
+    }
+}
