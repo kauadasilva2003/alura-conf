@@ -15,9 +15,11 @@
     <header class="header">
       <nav>
         <ul class="conteudo-header">
-          <li class="menu-item"><a class="menu-conteudo" href="#">Sobre</a></li>
           <li class="menu-item">
-            <a class="menu-conteudo" href="#">Palestrantes</a>
+            <a class="menu-conteudo" href="#sobre">Sobre</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-conteudo" href="#palestrantes">Palestrantes</a>
           </li>
         </ul>
       </nav>
@@ -29,13 +31,13 @@
         </section>
 
         <section class="inscrever-se">
-          <a class="a-inscrever-se" href="#">inscrever-se</a>
+          <a class="a-inscrever-se" href="#inscrever">inscrever-se</a>
         </section>
       </div>
     </header>
 
     <main class="main">
-      <div class="div-main">
+      <div class="div-main" id="sobre">
         <h3 class="title-main">Muito conteúdo: do Frontend ao Backend</h3>
         <h4 class="subtitle-main">
           30 de Maio de 2017 - na Cidade Maravilhosa
@@ -58,7 +60,7 @@
       </section>
 
       <section class="parte-Palestrantes">
-        <div class="div-palestrantes">
+        <div class="div-palestrantes" id="palestrantes">
           <h5 class="title-palestrantes">Palestrantes</h5>
           <h6 class="subtitle-palestrantes">
             Aprenda com os palestrantes que são referncia no mercado
@@ -128,20 +130,23 @@
         </div>
       </section>
 
-      <div class="container-form">
+      <div class="container-form" id="inscrever">
         <h7 class="title-form">Seus dados</h7>
-      </div>  
-        <form class="form">
-          <label class="label" id="nome">Nome</label>
-          <input class="input" type="text" id="nome"/>
+      </div>
+      <form class="form">
+        <label class="label" id="nome">Nome</label>
+        <input class="input" type="text" id="nome" />
 
-          <label class="label" id="email">E-mail</label>
-          <input class="input" type="text" id="email"/>
+        <label class="label" id="email">E-mail</label>
+        <input class="input" type="text" id="email" />
 
-          <div class="pai-botao">         
-            <button class="botao" type="submit">Realizar Inscrição</button>
-          </div>  
-        </form>
+        <div class="pai-botao">
+          <button class="botao" type="submit">Realizar Inscrição</button>
+        </div>
+      </form>
     </main>
+  </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
